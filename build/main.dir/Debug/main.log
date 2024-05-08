@@ -1,0 +1,20 @@
+﻿  Building Custom Rule C:/Users/mishr/source/repos/numC/numC/numC/CMakeLists.txt
+cl : command line  warning D9025: overriding '/openmp' with '/openmp:llvm'
+  main.cpp
+C:\Users\mishr\source\repos\numC\numC\numC\include\numC\npArrayCpu.hpp(105,1): warning C4114: same type qualifier used more than once
+  (compiling source file '../main.cpp')
+  C:\Users\mishr\source\repos\numC\numC\numC\include\numC\npArrayCpu.hpp(105,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\mishr\source\repos\numC\numC\numC\include\numC\npArrayCpu.hpp(45,11):
+  	while compiling class template 'np::ArrayCpu'
+  
+C:\Users\mishr\source\repos\numC\numC\numC\include\numC\npArrayCpu.hpp(430,5): warning C4114: same type qualifier used more than once
+  (compiling source file '../main.cpp')
+  
+C:\Users\mishr\source\repos\numC\numC\numC\include\numC\npArrayCpu.hpp(480,5): warning C4114: same type qualifier used more than once
+  (compiling source file '../main.cpp')
+  
+C:\Users\mishr\source\repos\numC\numC\numC\include\numC\npArrayCpu.hpp(529,5): warning C4114: same type qualifier used more than once
+  (compiling source file '../main.cpp')
+  
+  main.vcxproj -> C:\Users\mishr\source\repos\numC\numC\numC\bin\main.exe

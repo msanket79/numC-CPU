@@ -1,0 +1,10 @@
+^C:\USERS\MISHR\SOURCE\REPOS\NUMC\NUMC\NUMC\BUILD\CMAKEFILES\317D3E7C16C3AD62A1506198FAD1776D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mishr/source/repos/numC/numC/numC -BC:/Users/mishr/source/repos/numC/numC/numC/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mishr/source/repos/numC/numC/numC/build/numC.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\MISHR\SOURCE\REPOS\NUMC\NUMC\NUMC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mishr/source/repos/numC/numC/numC -BC:/Users/mishr/source/repos/numC/numC/numC/build --check-stamp-file C:/Users/mishr/source/repos/numC/numC/numC/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
